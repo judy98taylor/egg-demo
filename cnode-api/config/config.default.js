@@ -20,3 +20,11 @@ module.exports = appInfo => {
 
   return config;
 };
+// https://www.npmjs.com/package/egg-cors
+exports.security = {
+  domainWhiteList: ["http://localhost:4200"]
+};
+exports.cors = {
+  // {string|Function} origin: '*',
+  // {string|Array} allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
+};
