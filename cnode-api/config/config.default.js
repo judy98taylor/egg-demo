@@ -4,7 +4,7 @@ module.exports = appInfo => {
   const config = exports = {};
 
   // use for cookie sign key, should change to your own and keep security
-  config.keys = appInfo.name + '_1533117381438_1810';
+  config.keys = appInfo.name + '_1533120933123_6833';
 
   // add your config here
   config.middleware = [];
